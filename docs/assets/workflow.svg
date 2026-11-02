@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title">
+<title id="title">直播监测 → 音频录制与筛选 → 本地 ASR → 商业证据提炼 → 口播与总结 → 网页与群日报</title>
+<rect width="1200" height="300" rx="20" fill="#f3f7fd"/>
+<g font-family="Segoe UI,Microsoft YaHei,Arial,sans-serif"><text x="35" y="49" fill="#213750" font-size="23" font-weight="700">从一场直播，到每天可用的内容</text>
+<text x="35" y="79" fill="#64778f" font-size="15">录音切片用于稳定处理，项目内容按证据组织；原文与声音可追溯。</text>
+<g fill="white" stroke="#c6d7e9"><rect x="35" y="110" width="170" height="110" rx="16"/><rect x="227" y="110" width="170" height="110" rx="16"/><rect x="419" y="110" width="170" height="110" rx="16"/><rect x="611" y="110" width="170" height="110" rx="16"/><rect x="803" y="110" width="170" height="110" rx="16"/><rect x="995" y="110" width="170" height="110" rx="16"/></g>
+<g fill="#167c9f" font-size="12" font-weight="700"><text x="53" y="136">01 / RECORD</text><text x="245" y="136">02 / FILTER</text><text x="437" y="136">03 / TRANSCRIBE</text><text x="629" y="136">04 / UNDERSTAND</text><text x="821" y="136">05 / CREATE</text><text x="1013" y="136">06 / DELIVER</text></g>
+<g fill="#203650" font-size="20" font-weight="600"><text x="53" y="169">监测与录制</text><text x="245" y="169">音频质量检查</text><text x="437" y="169">本地语音转写</text><text x="629" y="169">项目证据整理</text><text x="821" y="169">口播与总结</text><text x="1013" y="169">网页与群日报</text></g>
+<g fill="#687e97" font-size="13"><text x="53" y="198">Streamlink + FFmpeg</text><text x="245" y="198">隔离异常 · 保留有效音频</text><text x="437" y="198">Paraformer + VAD</text><text x="629" y="198">关联原文 · 标明阶段</text><text x="821" y="198">DeepSeek 商业分析</text><text x="1013" y="198">选稿 · 回听 · 复制</text></g>
+<g fill="#7b98b9" font-size="25"><text x="209" y="176">›</text><text x="401" y="176">›</text><text x="593" y="176">›</text><text x="785" y="176">›</text><text x="977" y="176">›</text></g>
+<text x="35" y="267" fill="#64778f" font-size="14">SQLite 保存任务与检查点   /   复用已完成结果   /   人工复核商业事实   /   按北京时间定时推送</text></g>
+</svg>

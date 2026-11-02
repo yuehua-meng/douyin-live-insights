@@ -1,0 +1,8 @@
+# Replace the hostname with your own domain, pointing to this server.
+live.example.com {
+    redir / /recorder-admin/ 302
+    redir /recorder-admin /recorder-admin/ 308
+    handle_path /recorder-admin/* {
+        reverse_proxy 127.0.0.1:8790
+    }
+}

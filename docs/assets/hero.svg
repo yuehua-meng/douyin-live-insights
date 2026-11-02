@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+<title id="title">Douyin Live Insights — 从直播声音到商业内容</title><desc id="desc">深色渐变背景上的音频波形与录音、转写、商业洞察、案例口播流程</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080f22"/><stop offset="1" stop-color="#142b48"/></linearGradient><linearGradient id="accent"><stop stop-color="#6ce9ec"/><stop offset="1" stop-color="#a799ff"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#8acde0" stroke-opacity=".07"/></pattern></defs>
+<rect width="1280" height="420" rx="24" fill="url(#bg)"/><rect width="1280" height="420" rx="24" fill="url(#grid)"/>
+<circle cx="1090" cy="155" r="155" fill="none" stroke="#7ee4ed" stroke-opacity=".12"/><circle cx="1090" cy="155" r="115" fill="none" stroke="#9e94fb" stroke-opacity=".18"/>
+<g font-family="Segoe UI,Microsoft YaHei,Arial,sans-serif"><text x="64" y="63" fill="#88dce7" font-size="15" letter-spacing="4">SELF-HOSTED · AUDIO INTELLIGENCE</text>
+<text x="60" y="146" fill="#f2f7ff" font-size="57" font-weight="700">Douyin Live Insights</text>
+<text x="64" y="201" fill="#c0d1e7" font-size="27">把直播里的好内容，变成能复用的内容资产。</text>
+<text x="64" y="245" fill="#8ca5bf" font-size="18">抖音直播内容工作台 / Record. Understand. Tell the story.</text>
+<g fill="#122840" stroke="#3b5b79"><rect x="64" y="302" width="174" height="48" rx="12"/><rect x="270" y="302" width="174" height="48" rx="12"/><rect x="476" y="302" width="174" height="48" rx="12"/><rect x="682" y="302" width="174" height="48" rx="12"/></g>
+<g fill="#dbe8fb" font-size="18" text-anchor="middle"><text x="151" y="333">直播自动录音</text><text x="357" y="333">本地 ASR 转写</text><text x="563" y="333">商业案例口播</text><text x="769" y="333">企业微信日报</text></g>
+<g fill="#71d2de" font-size="24"><text x="246" y="334">›</text><text x="452" y="334">›</text><text x="658" y="334">›</text></g></g>
+<g stroke="url(#accent)" stroke-width="8" stroke-linecap="round"><path d="M927 159v28 M947 140v66 M967 113v120 M987 145v56 M1007 88v170 M1027 123v100 M1047 62v222 M1067 103v140 M1087 132v82 M1107 88v170 M1127 112v122 M1147 142v62 M1167 152v42"/></g>
+<rect x="64" y="386" width="1152" height="2" rx="1" fill="url(#accent)" opacity=".5"/>
+</svg>

@@ -1,0 +1,16 @@
+[target]
+# Local archive label only. This value does NOT find the room automatically.
+douyin_id = "my-streamer"
+# Paste the VERIFIED desktop room URL, not an App share short link or a profile URL.
+# Keep empty until configured. See docs/live-room-setup.md.
+room_url = ""
+
+[paths]
+recordings_dir = "/srv/douyin-recorder/recordings"
+work_dir = "/srv/douyin-recorder/work"
+
+[runtime]
+poll_seconds = 60
+segment_seconds = 1800
+min_free_gb = 5
+ffmpeg = "ffmpeg"

@@ -1,0 +1,24 @@
+[Unit]
+Description=Douyin audio room recorder
+Wants=network-online.target
+After=network-online.target
+StartLimitIntervalSec=300
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=douyinrec
+Group=douyinrec
+WorkingDirectory=/opt/douyin-recorder
+ExecStart=/opt/douyin-recorder/.venv/bin/python /opt/douyin-recorder/recorder.py --config /etc/douyin-recorder/config.toml
+Restart=on-failure
+RestartSec=10s
+TimeoutStopSec=30s
+KillMode=control-group
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/srv/douyin-recorder
+
+[Install]
+WantedBy=multi-user.target

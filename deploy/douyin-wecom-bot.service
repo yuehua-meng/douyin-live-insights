@@ -1,0 +1,28 @@
+[Unit]
+Description=Douyin daily digest WeCom smart bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=douyinanalysis
+Group=douyinanalysis
+WorkingDirectory=/opt/douyin-recorder
+Environment=PYTHONUNBUFFERED=1
+Environment=PYTHONDONTWRITEBYTECODE=1
+EnvironmentFile=/etc/douyin-recorder/analysis/common.env
+EnvironmentFile=/etc/douyin-recorder/analysis/automation.env
+EnvironmentFile=/etc/douyin-recorder/analysis/wecom.env
+ExecStart=/opt/douyin-recorder/.analysis-venv/bin/python -m analysis.wecom_bot
+Restart=on-failure
+RestartSec=15
+TimeoutStopSec=25
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/srv/douyin-recorder/analysis
+
+[Install]
+WantedBy=multi-user.target
